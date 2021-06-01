@@ -10,3 +10,8 @@ class TestMultiples(unittest.TestCase):
         self.assertEqual(fizzbuzz.fizzbuzz(5), "Buzz")
         self.assertEqual(fizzbuzz.fizzbuzz(10), "Buzz")
         self.assertEqual(fizzbuzz.fizzbuzz(50), "Buzz")
+    def testFiveandThree(self):
+        self.assertEqual(fizzbuzz.fizzbuzz(15), "FizzBuzz")
+        self.assertEqual(fizzbuzz.fizzbuzz(30), "FizzBuzz")
+        self.assertEqual(fizzbuzz.fizzbuzz(60), "FizzBuzz")
+    
